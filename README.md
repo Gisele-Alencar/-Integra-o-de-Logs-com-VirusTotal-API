@@ -38,9 +38,9 @@ O script inicia a varredura dos endereços IP e apresenta o progresso das consul
 <img width="1023" height="506" alt="apis" src="https://github.com/user-attachments/assets/70fbb5c6-9a27-4a4a-91c9-a585e605dac6" />
 
 
-Ao finalizar as consultas na API, os dados são processados e apresentados em uma tabela no terminal, permitindo visualizar os resultados obtidos para cada endereço IP.
-
 ## Final da análise no terminal 
+
+Ao finalizar as consultas na API, os dados são processados e apresentados em uma tabela no terminal, permitindo visualizar os resultados obtidos para cada endereço IP.
 
 <img width="976" height="505" alt="apis1" src="https://github.com/user-attachments/assets/b3e56573-6570-4ad1-ad7a-a3aee948d1ae" />
 
