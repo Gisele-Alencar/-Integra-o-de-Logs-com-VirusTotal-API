@@ -36,9 +36,7 @@ O processo de análise foi organizado nas seguintes etapas:
 
 O script inicia a varredura dos endereços IP e apresenta o progresso das consultas realizadas.
 
-
-<img width="1023" height="506" alt="apis" src="https://github.com/user-attachments/assets/70fbb5c6-9a27-4a4a-91c9-a585e605dac6" />
-
+<img width="975" height="506" alt="image" src="https://github.com/user-attachments/assets/bf5bda01-7533-4403-9f90-b55b72152626" />
 
 ## Final da análise no terminal 
 
