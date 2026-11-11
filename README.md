@@ -1,0 +1,85 @@
+#  Threat Intelligence Automator: Integração de Logs com VirusTotal API
+
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Parrot OS](https://img.shields.io/badge/Parrot_OS-Security-32E6E2?style=for-the-badge&logo=linux&logoColor=black)
+![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![VirusTotal](https://img.shields.io/badge/VirusTotal-API-394EFF?logo=virustotal&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557C)
+
+## Sobre o Projeto
+
+Projeto de automação desenvolvido em Python para consulta e análise de endereços IP utilizando a API do VirusTotal.
+
+A ferramenta realiza consultas automatizadas, coleta informações sobre possíveis ameaças, processa os dados retornados pela API e apresenta os resultados por meio de tabelas no terminal e gráficos gerados com Matplotlib.
+
+O projeto foi desenvolvido em ambiente Linux (Parrot OS), com foco em automação de consultas, análise de indicadores de comprometimento (IoCs) e visualização de dados relacionados à segurança da informação.
+
+## Objetivo
+
+Automatizar a consulta de endereços IP em uma plataforma de inteligência de ameaças, facilitando a identificação e análise de indicadores potencialmente maliciosos. As consultas foram realizadas por meio da API do VirusTotal, permitindo obter informações sobre a reputação dos endereços IP.
+
+## Funcionamento do Projeto
+
+O processo de análise foi organizado nas seguintes etapas:
+
+1. Inicialização do script Python.
+2. Carregamento dos endereços IP que serão analisados.
+3. Envio das consultas para a API do VirusTotal.
+4. Recebimento das informações retornadas pela API.
+5. Processamento e organização dos resultados.
+6. Exibição dos dados no terminal.
+7. Geração de gráfico utilizando Matplotlib.
+
+## Início da execução
+
+O script inicia a varredura dos endereços IP e apresenta o progresso das consultas realizadas.
+
+
+<img width="1023" height="506" alt="apis" src="https://github.com/user-attachments/assets/70fbb5c6-9a27-4a4a-91c9-a585e605dac6" />
+
+
+Ao finalizar as consultas na API, os dados são processados e apresentados em uma tabela no terminal, permitindo visualizar os resultados obtidos para cada endereço IP.
+
+## Final da análise no terminal 
+
+<img width="976" height="505" alt="apis1" src="https://github.com/user-attachments/assets/b3e56573-6570-4ad1-ad7a-a3aee948d1ae" />
+
+
+## Execução e visualização no Localhost
+
+Após o processamento das consultas, os resultados também podem ser disponibilizados por meio de um servidor HTTP local (Localhost), permitindo visualizar as informações em uma interface acessível pelo navegador.
+
+<img width="875" height="415" alt="apis1 1" src="https://github.com/user-attachments/assets/50b0cd77-dd34-4836-bfc6-594e707bf5f9" />
+
+##  Gráfico gerado com Matplotlib
+
+Ao acessar o localhost é gerado um gráfico de forma autônoma utilizando Matplotlib, facilitando a interpretação visual dos resultados da análise.
+
+<img width="800" height="600" alt="apis2" src="https://github.com/user-attachments/assets/f5026c30-2f94-4bab-bd44-17df8b44f782" />
+
+
+
+## Resultados Obtidos
+
+Na execução registrada, o gráfico apresentou 100% dos indicadores classificados como maliciosos segundo o critério utilizado pelo script.
+
+A automação permitiu:
+
+- Realizar consultas automatizadas de endereços IP.
+- Integrar Python com a API do VirusTotal.
+- Processar informações retornadas pela API.
+- Organizar os resultados em formato tabular.
+- Gerar visualizações gráficas para facilitar a análise.
+
+
+## Conclusão
+
+O desenvolvimento deste projeto proporcionou experiência prática com:
+
+- Integração de APIs utilizando Python.
+- Automação de consultas de segurança.
+- Análise de indicadores de comprometimento (IoCs).
+- Processamento e organização de dados.
+- Visualização de informações com Matplotlib.
+- Utilização de ambiente Linux para desenvolvimento de ferramentas de segurança.
+
